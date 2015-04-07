@@ -17,3 +17,9 @@ Both must be installed to run (though the sim does work with just the DK2 if no 
 Built in Unity3D simply import this project and find the scene "main" to edit the sim. To build
 new versions simply go to build settings and replace the "main" exe (be sure to delete the direct to
 rift version first as it will also be replaced). 
+
+## License
+
+MIT: http://mit-license.org/
+
+Copyright 2015 Brian Clee
