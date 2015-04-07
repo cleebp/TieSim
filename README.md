@@ -18,6 +18,12 @@ Built in Unity3D simply import this project and find the scene "main" to edit th
 new versions simply go to build settings and replace the "main" exe (be sure to delete the direct to
 rift version first as it will also be replaced). 
 
+## How to use
+
+To run the project simply run either the main.exe or the direct to rift option. Even though the 
+instruction board says to press "space" to advance, simply use the F keys to navigate the instruction
+wall.
+
 ## License
 
 MIT: http://mit-license.org/
