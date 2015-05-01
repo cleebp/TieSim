@@ -24,6 +24,12 @@ To run the project simply run either the main.exe or the direct to rift option. 
 instruction board says to press "space" to advance, simply use the F keys to navigate the instruction
 wall.
 
+## LaTeX
+
+Included in this repo is the full LaTeX file set used for my thesis paper. To compile simply open the "thesis.tex" file, and first run its typeset through BibTex to create the "thesis.bbl", next simply compile the file with the LaTeX typeset. Important note, you must compile multiple times with the LaTeX typeset in order to get the table of contents and figures to load in properly. 
+
+Credit for the "asu.cls" and overall markup of the "thesis.tex" goes to Michael Crawford with his undergrad-thesis files over at https://github.com/mbcrawfo/undergrad-thesis. 
+
 ## License
 
 MIT: http://mit-license.org/

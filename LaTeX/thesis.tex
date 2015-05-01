@@ -1,0 +1,78 @@
+% packages
+\documentclass[11pt]{asu}
+\usepackage[]{graphics}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{setspace}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{courier}
+\usepackage{csquotes}
+\usepackage{pdfpages}
+%\usepackage{glossaries}
+\usepackage[toc,page]{appendix}
+
+% penalties
+\clubpenalty=5000
+\widowpenalty=5000
+\renewcommand\lstlistlistingname{List of Listings}
+\setlength{\belowcaptionskip}{.25in}
+%\makeglossaries
+
+
+\title{On Virtual Reality as a Viable Medium for Competency Based Education}
+\degree{Bachelor of Science}
+\department{Computer Science}
+\gradmonth{May}
+\gradyear{2015}
+\author{Brian Clee}  
+\thesischair{Dee Parks, Ph.D.}
+\thesismemberone{Jill Thomley, Ph.D.}
+\thesismembertwo{Dee Parks, Ph.D.}
+\honorsdirector{Leslie Sargent Jones, Ph.D.}
+\dean{Dean}
+
+\begin{document}
+	\begin{preliminary}
+	\maketitle
+        \makecopyright
+        \input{abstract.tex}
+	\tableofcontents
+        %\listoftables
+        \listoffigures
+	\end{preliminary}
+
+	\newlinestretch{2}
+
+    \begin{doublespace}
+    \input{01_introduction.tex}
+    \input{02_background.tex}
+    \input{03_vr+education.tex}
+    \input{04_tiesim.tex}
+    \input{05_study.tex}
+    \input{06_conclusion.tex}
+    \end{doublespace}
+
+    %\newpage
+    %\newlinestretch{1}
+    %\printglossary[style=long]  
+
+   \begin{appendices}
+      \begin{singlespace}
+        \input{0a_appendix.tex}
+      \end{singlespace}    
+   \end{appendices}
+
+    \newpage
+    \newlinestretch{1}
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \bibliographystyle{plain}
+    \bibliography{bibliography}
+    \nocite{*}
+    
+    \newpage
+    %\addcontentsline{toc}{chapter}{Acknowledgements}
+    \input{acknowledgements.tex}
+\end{document}
